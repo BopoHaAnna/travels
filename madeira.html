@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Мадейра — Наши путешествия</title><meta name="description" content="Предварительный план road trip на Мадейру: горы, лавровый лес, водопады, чёрные пляжи и северное побережье.">
+<meta property="og:title" content="Мадейра — Наши путешествия"><meta property="og:description" content="Предварительный план road trip на Мадейру: горы, лавровый лес, водопады, чёрные пляжи и северное побережье."><meta property="og:type" content="website">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/madeira.css"></head><body>
+<header class="top"><a class="brand" href="index.html">🧭 Наши путешествия</a><nav><a href="index.html">Поездки</a><a href="ideas.html">Идеи</a></nav></header>
+<main><section class="page trip madeira" id="p-madeira"><a class="back" href="index.html">← все поездки</a>
+<div class="thero"><div class="hbg"><img src="assets/img/madeira-hero.jpg" alt="" style="object-position:50% 55%"></div><div class="hov"></div><div class="htx"><h1>Мадейра</h1>
+<div class="dates">май–июнь 2027 · даты и бронирования пока не выбраны · <span class="badge plan">В планах</span></div><div class="route">Фуншал → горы и лавровый лес → восток острова → Fanal → северное побережье → Rabaçal</div></div></div>
+<div class="chips"><span>road trip на двоих</span><span>5 основных дней + расширение до 7</span><span>арендованная машина</span><span>гибкий маршрут</span></div><p class="lead">Зелёная Мадейра: туманные лавровые леса, мох и древние деревья Fanal, водопады, горные панорамы, чёрные пляжи и северное побережье. Маршрут построен так, чтобы за 4 дня увидеть главные природные места, а пятый день добавить восточную часть острова.</p>
+<div id="map" data-points='[[&quot;Pico do Arieiro&quot;, 32.7358, -16.929, &quot;день 1&quot;], [&quot;Ribeiro Frio&quot;, 32.7273, -16.8903, &quot;день 1&quot;], [&quot;Balcões&quot;, 32.7237, -16.877, &quot;день 1&quot;], [&quot;Ponta de São Lourenço&quot;, 32.744, -16.706, &quot;день 2&quot;], [&quot;Santana&quot;, 32.807, -16.883, &quot;день 2&quot;], [&quot;Portela&quot;, 32.7437, -16.8008, &quot;день 2&quot;], [&quot;Machico&quot;, 32.719, -16.767, &quot;день 2&quot;], [&quot;Fanal&quot;, 32.8196, -17.1426, &quot;день 3&quot;], [&quot;Ribeira da Janela&quot;, 32.8402, -17.1342, &quot;день 3&quot;], [&quot;Porto Moniz&quot;, 32.8663, -17.1696, &quot;день 3&quot;], [&quot;Rabaçal / Levada do Risco&quot;, 32.7544, -17.1313, &quot;день 4&quot;], [&quot;Seixal&quot;, 32.825, -17.118, &quot;день 5&quot;], [&quot;Véu da Noiva&quot;, 32.8219, -17.096, &quot;день 5&quot;], [&quot;São Vicente&quot;, 32.8, -17.038, &quot;день 5&quot;], [&quot;Cabo Girão&quot;, 32.656, -17.005, &quot;день 6&quot;], [&quot;Câmara de Lobos&quot;, 32.6489, -16.9768, &quot;день 6&quot;], [&quot;Funchal&quot;, 32.6669, -16.9241, &quot;день 6&quot;], [&quot;Achadas da Cruz&quot;, 32.8267, -17.201, &quot;день 7&quot;]]' data-line='[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]'></div><ol class="legend"><li><a href="https://www.google.com/maps/search/?api=1&query=32.7358,-16.929" target="_blank" rel="noopener"><b>1</b> Pico do Arieiro</a><small>день 1</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.7273,-16.8903" target="_blank" rel="noopener"><b>2</b> Ribeiro Frio</a><small>день 1</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.7237,-16.877" target="_blank" rel="noopener"><b>3</b> Balcões</a><small>день 1</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.744,-16.706" target="_blank" rel="noopener"><b>4</b> Ponta de São Lourenço</a><small>день 2</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.807,-16.883" target="_blank" rel="noopener"><b>5</b> Santana</a><small>день 2</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.7437,-16.8008" target="_blank" rel="noopener"><b>6</b> Portela</a><small>день 2</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.719,-16.767" target="_blank" rel="noopener"><b>7</b> Machico</a><small>день 2</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.8196,-17.1426" target="_blank" rel="noopener"><b>8</b> Fanal</a><small>день 3</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.8402,-17.1342" target="_blank" rel="noopener"><b>9</b> Ribeira da Janela</a><small>день 3</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.8663,-17.1696" target="_blank" rel="noopener"><b>10</b> Porto Moniz</a><small>день 3</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.7544,-17.1313" target="_blank" rel="noopener"><b>11</b> Rabaçal / Levada do Risco</a><small>день 4</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.825,-17.118" target="_blank" rel="noopener"><b>12</b> Seixal</a><small>день 5</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.8219,-17.096" target="_blank" rel="noopener"><b>13</b> Véu da Noiva</a><small>день 5</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.8,-17.038" target="_blank" rel="noopener"><b>14</b> São Vicente</a><small>день 5</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.656,-17.005" target="_blank" rel="noopener"><b>15</b> Cabo Girão</a><small>день 6</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.6489,-16.9768" target="_blank" rel="noopener"><b>16</b> Câmara de Lobos</a><small>день 6</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.6669,-16.9241" target="_blank" rel="noopener"><b>17</b> Funchal</a><small>день 6</small></li><li><a href="https://www.google.com/maps/search/?api=1&query=32.8267,-17.201" target="_blank" rel="noopener"><b>18</b> Achadas da Cruz</a><small>день 7</small></li></ol><a class="gbtn" href="https://www.google.com/maps/dir/?api=1&origin=32.7358,-16.929&destination=32.8267,-17.201&waypoints=32.7273,-16.8903%7C32.7237,-16.877%7C32.744,-16.706%7C32.807,-16.883%7C32.7437,-16.8008%7C32.719,-16.767%7C32.8196,-17.1426%7C32.8402,-17.1342%7C32.8663,-17.1696%7C32.7544,-17.1313%7C32.825,-17.118%7C32.8219,-17.096%7C32.8,-17.038%7C32.656,-17.005%7C32.6489,-16.9768%7C32.6669,-16.9241&travelmode=driving" target="_blank" rel="noopener">📍 Открыть маршрут в Google Maps</a>
+<article class="prose">
+<div class="notice">
+    <strong>Главная идея гибкости.</strong> Четыре дня-ядра: Pico do Arieiro и Ribeiro Frio; Fanal и Porto Moniz; Rabaçal и водопад Risco; Seixal и северное побережье. Если поездку придётся сократить до 4 дней, восточный день (Ponta de São Lourenço и Santana) можно убрать без потери главной «зелёной» части Мадейры.
+  </div>
+<nav class="toc">
+    <strong>Содержание</strong>
+    <ol>
+      <li><a href="#logistics">Перелёты, машина и проживание</a></li>
+      <li><a href="#route">Маршрут по дням</a></li>
+      <li><a href="#short">Как сократить до 4 дней</a></li>
+      <li><a href="#stays">Где базироваться</a></li>
+      <li><a href="#walks">Прогулки и нагрузка</a></li>
+      <li><a href="#budget">Бюджет и что проверить</a></li>
+      <li><a href="#links">Полезные ссылки</a></li>
+    </ol>
+  </nav>
+<h2 id="logistics">✈️ Перелёты, машина и проживание</h2>
+  <ul>
+    <li><strong>Перелёт:</strong> ориентир — прямой рейс Valencia → Funchal, если расписание на выбранные даты сохранится. Проверить дни выполнения, багаж и итоговую цену перед покупкой.</li>
+    <li><strong>Аренда автомобиля:</strong> забрать в аэропорту и вернуть там же. Для двух человек достаточно компактного автомобиля, но автоматическую коробку стоит бронировать заранее, если она нужна.</li>
+    <li><strong>Дороги:</strong> скоростные тоннели заметно упрощают перемещения, но к смотровым площадкам и в горы ведут извилистые дороги. Время в пути ниже — ориентировочное, без долгих остановок.</li>
+    <li><strong>Проживание:</strong> для короткой поездки удобнее одна база на юге/в районе Фуншала. Для 6–7 дней можно разделить проживание между югом и северо-западом.</li>
+  </ul>
+  <p class="small">Точные рейсы, отели, стоимость машины и бюджет пока не фиксируем: они зависят от конкретных дат и будут добавлены после выбора периода.</p>
+
+  <h2 id="route">📅 Маршрут по дням</h2>
+
+  <section class="day">
+    <div class="day-meta">День 1 · Горная Мадейра · ядро маршрута</div>
+    <h3>Pico do Arieiro → Ribeiro Frio → Balcões</h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-01.jpg" alt="Pico do Arieiro" loading="lazy" style="object-position:35% 50%"><figcaption>Pico do Arieiro</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-02.jpg" alt="Ribeiro Frio" loading="lazy"><figcaption>Ribeiro Frio</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-03.jpg" alt="Miradouro dos Balcões" loading="lazy" style="object-position:50% 35%"><figcaption>Miradouro dos Balcões</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Pico do Arieiro</strong> — одна из самых эффектных горных панорам острова, высота 1 818 м. Приехать по возможности утром и проверить облачность.</li>
+      <li><strong>Ribeiro Frio</strong> — зелёный лавровый лес, ручьи, папоротники и влажная лесная атмосфера.</li>
+      <li><strong>Miradouro dos Balcões</strong> — короткая прогулка по лесу к смотровой площадке. Около 3 км туда-обратно, обычно 1–1,5 часа.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> около 1,5–2 часов суммарно из Фуншала с переездами между точками.</p>
+    <p><strong>Важно:</strong> горная погода быстро меняется. Этот день лучше переставлять по прогнозу, а не жёстко привязывать к первому дню.</p>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Pico+do+Arieiro+Madeira">Pico do Arieiro на карте</a> · <a href="https://www.google.com/maps/search/?api=1&query=Ribeiro+Frio+Madeira">Ribeiro Frio</a> · <a href="https://www.google.com/maps/search/?api=1&query=Miradouro+dos+Balcoes+Madeira">Balcões</a></p>
+  </section>
+
+  <section class="day">
+    <div class="day-meta">День 2 · Восток острова · дополнительный день</div>
+    <h3>Ponta de São Lourenço → Santana → Portela → Machico <span class="optional">можно убрать при 4 днях</span></h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-04.jpg" alt="Ponta de São Lourenço" loading="lazy" style="object-position:50% 40%"><figcaption>Ponta de São Lourenço</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-05.jpg" alt="Santana" loading="lazy" style="object-position:50% 50%"><figcaption>Santana</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-06.jpg" alt="Miradouro da Portela" loading="lazy" style="object-position:62% 50%"><figcaption>Miradouro da Portela</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Ponta de São Lourenço</strong> — сухой, почти марсианский полуостров с фантастическими скалами и океаном. Можно ограничиться смотровыми точками и короткой прогулкой; полный маршрут по полуострову длинный.</li>
+      <li><strong>Santana</strong> — традиционные треугольные домики с соломенными крышами.</li>
+      <li><strong>Miradouro da Portela</strong> — панорама гор и северного побережья.</li>
+      <li><strong>Machico</strong> — прибрежный городок для обеда или неспешной остановки.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> примерно 2–2,5 часа суммарно из Фуншала, не считая остановок.</p>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Ponta+de+Sao+Lourenco+Madeira">Ponta de São Lourenço</a> · <a href="https://www.google.com/maps/search/?api=1&query=Santana+Madeira">Santana</a> · <a href="https://www.google.com/maps/search/?api=1&query=Miradouro+da+Portela+Madeira">Portela</a> · <a href="https://www.google.com/maps/search/?api=1&query=Machico+Madeira">Machico</a></p>
+  </section>
+
+  <section class="day">
+    <div class="day-meta">День 3 · Главная зелёная сказка · ядро маршрута</div>
+    <h3>Fanal → Ribeira da Janela → Porto Moniz</h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-07.jpg" alt="Fanal Forest" loading="lazy" style="object-position:65% 30%"><figcaption>Fanal Forest</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-08.jpg" alt="Ribeira da Janela" loading="lazy" style="object-position:50% 50%"><figcaption>Ribeira da Janela</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-09.jpg" alt="Porto Moniz" loading="lazy" style="object-position:60% 50%"><figcaption>Porto Moniz</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Fanal Forest</strong> — древние лавровые деревья, покрытые лишайниками, мох, поляны и туман. Здесь не нужен длинный маршрут: можно погулять среди деревьев и выбрать короткую петлю по погоде.</li>
+      <li><strong>Ribeira da Janela</strong> — знаменитые скалы, поднимающиеся прямо из океана.</li>
+      <li><strong>Porto Moniz</strong> — природные лавовые бассейны. Можно искупаться, если позволит погода.</li>
+      <li>По дороге — смотровые площадки над северо-западным побережьем.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> около 2,5–3 часов суммарно из Фуншала с переездами между точками.</p>
+    <p><strong>Лайфхак:</strong> Fanal особенно атмосферный в тумане. Если прогноз обещает облака в горах, поменять этот день местами с другим.</p>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Fanal+Forest+Madeira">Fanal</a> · <a href="https://www.google.com/maps/search/?api=1&query=Ribeira+da+Janela+Madeira">Ribeira da Janela</a> · <a href="https://www.google.com/maps/search/?api=1&query=Porto+Moniz+natural+pools">Porto Moniz</a></p>
+  </section>
+
+  <section class="day">
+    <div class="day-meta">День 4 · Водопады и влажный лес · ядро маршрута</div>
+    <h3>Rabaçal → Levada do Risco → (по желанию) Ponta do Sol</h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-10.jpg" alt="Rabaçal" loading="lazy" style="object-position:50% 50%"><figcaption>Rabaçal</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-11.jpg" alt="Levada do Risco" loading="lazy" style="object-position:60% 50%"><figcaption>Levada do Risco</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-12.jpg" alt="25 Fontes" loading="lazy" style="object-position:60% 50%"><figcaption>25 Fontes</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Rabaçal</strong> — одна из самых красивых зелёных долин Мадейры: лес, водные каналы-левады, папоротники и влажный воздух.</li>
+      <li><strong>Levada do Risco</strong> — прогулка к высокому водопаду. Ориентир — около 3 км туда-обратно и примерно 1,5–2 часа пешком; маршрут обычно считается лёгким.</li>
+      <li><strong>25 Fontes</strong> — дополнительная тропа к лагуне и водопадам. Около 8–9 км туда-обратно и примерно 3–4 часа; это уже средняя нагрузка, поэтому не обязательна.</li>
+      <li>После прогулки — при желании короткая остановка в <strong>Ponta do Sol</strong>.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> около 2–2,5 часов суммарно из Фуншала, включая переезд к Rabaçal и обратно.</p>
+    <div class="notice warm"><strong>Наш вариант:</strong> выбрать Risco, а не пытаться обязательно пройти обе тропы. До начала маршрутов может потребоваться спуск от парковки; на месте уточнить работу шаттла к лесному дому Rabaçal. Условия и время прохождения проверять перед поездкой.</div>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Raba%C3%A7al+Madeira">Rabaçal</a> · <a href="https://www.google.com/maps/search/?api=1&query=Levada+do+Risco+Madeira">Levada do Risco</a> · <a href="https://www.google.com/maps/search/?api=1&query=Levada+das+25+Fontes+Madeira">25 Fontes</a></p>
+  </section>
+
+  <section class="day">
+    <div class="day-meta">День 5 · Северное побережье · ядро маршрута</div>
+    <h3>Seixal → Véu da Noiva → São Vicente</h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-13.jpg" alt="Seixal" loading="lazy" style="object-position:50% 55%"><figcaption>Seixal</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-14.jpg" alt="Miradouro Véu da Noiva" loading="lazy" style="object-position:72% 55%"><figcaption>Miradouro Véu da Noiva</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-15.jpg" alt="São Vicente" loading="lazy" style="object-position:45% 50%"><figcaption>São Vicente</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Seixal</strong> — чёрный вулканический пляж, зелёные склоны и один из самых фотогеничных видов острова.</li>
+      <li><strong>Miradouro Véu da Noiva</strong> — водопад, падающий со скалы в океан.</li>
+      <li><strong>São Vicente</strong> — красивая долина, горные склоны и уютный городок.</li>
+      <li>По пути — остановки на смотровых площадках северного побережья.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> около 2–2,5 часов суммарно из Фуншала, без учёта остановок.</p>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Seixal+Beach+Madeira">Seixal</a> · <a href="https://www.google.com/maps/search/?api=1&query=Miradouro+V%C3%A9u+da+Noiva+Madeira">Véu da Noiva</a> · <a href="https://www.google.com/maps/search/?api=1&query=Sao+Vicente+Madeira">São Vicente</a></p>
+  </section>
+
+  <section class="day">
+    <div class="day-meta">День 6 · Южное побережье · дополнительный день</div>
+    <h3>Cabo Girão → Câmara de Lobos → Funchal <span class="optional">можно убрать при 4 днях</span></h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-16.jpg" alt="Cabo Girão" loading="lazy" style="object-position:50% 50%"><figcaption>Cabo Girão</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-17.jpg" alt="Câmara de Lobos" loading="lazy" style="object-position:50% 55%"><figcaption>Câmara de Lobos</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-18.jpg" alt="Funchal" loading="lazy" style="object-position:45% 50%"><figcaption>Funchal</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Cabo Girão</strong> — высокая морская скала и стеклянная смотровая площадка.</li>
+      <li><strong>Câmara de Lobos</strong> — красочная рыбацкая бухта, лодки и приятные улочки.</li>
+      <li><strong>Funchal</strong> — старый город, набережная, рынок и сады; можно оставить на спокойный вечер.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> около 1–1,5 часов суммарно, если ночуем в Фуншале.</p>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Cabo+Girao+Madeira">Cabo Girão</a> · <a href="https://www.google.com/maps/search/?api=1&query=Camara+de+Lobos+Madeira">Câmara de Lobos</a> · <a href="https://www.google.com/maps/search/?api=1&query=Funchal+Madeira">Funchal</a></p>
+  </section>
+
+  <section class="day">
+    <div class="day-meta">День 7 · Северо-запад · дополнительный день</div>
+    <h3>Achadas da Cruz <span class="optional">можно убрать при 4 днях</span></h3>
+    <div class="strip">
+      <figure><img class="zoom" src="assets/img/madeira-19.jpg" alt="Achadas da Cruz" loading="lazy" style="object-position:50% 22%"><figcaption>Achadas da Cruz</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-20.jpg" alt="Achadas da Cruz" loading="lazy" style="object-position:50% 50%"><figcaption>Achadas da Cruz</figcaption></figure>
+      <figure><img class="zoom" src="assets/img/madeira-21.jpg" alt="Achadas da Cruz" loading="lazy" style="object-position:60% 50%"><figcaption>Achadas da Cruz</figcaption></figure>
+    </div>
+    <ul>
+      <li><strong>Achadas da Cruz</strong> — очень крутая канатная дорога спускается к узкой прибрежной полосе у подножия зелёных скал.</li>
+      <li>Внизу — необычный пейзаж, океан и небольшие сельскохозяйственные участки. Можно просто полюбоваться видом сверху, если не хочется спускаться.</li>
+      <li>Проверить часы работы и ветер: канатная дорога может не работать при плохих погодных условиях.</li>
+    </ul>
+    <p><strong>🚗 За рулём:</strong> зависит от базы; из Porto Moniz — короткий переезд, из Фуншала — около 2 часов в одну сторону.</p>
+    <p><a href="https://www.google.com/maps/search/?api=1&query=Achadas+da+Cruz+Cable+Car+Madeira">Achadas da Cruz</a></p>
+  </section>
+
+  <h2 id="short">✂️ Как сократить маршрут до 4 дней</h2>
+  <div class="notice">
+    <strong>Сохраняем именно зелёную Мадейру:</strong>
+    <ol>
+      <li>Pico do Arieiro + Ribeiro Frio + Balcões.</li>
+      <li>Fanal + Porto Moniz + Ribeira da Janela.</li>
+      <li>Rabaçal + водопад Risco.</li>
+      <li>Seixal + Véu da Noiva + São Vicente.</li>
+    </ol>
+    Восток острова (Ponta de São Lourenço и Santana), южные городки и Achadas da Cruz остаются на случай пятого и последующих дней.
+  </div>
+  <p>Если есть только 5 дней — добавляем восток. Если 6–7 — добавляем юг и Achadas da Cruz. День прибытия и вылета не считаем полноценными экскурсионными днями.</p>
+
+  <h2 id="stays">🏨 Где базироваться</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>4–5 дней: одна база</h3>
+      <p>Фуншал, Câmara de Lobos или окрестности. Удобно для короткой поездки: не нужно менять отель и возить багаж.</p>
+    </div>
+    <div class="card">
+      <h3>6–7 дней: две базы</h3>
+      <p>3–4 ночи на юге (Фуншал / Câmara de Lobos) и 2–3 ночи на северо-западе (São Vicente / Porto Moniz). Последнюю ночь перед ранним вылетом лучше провести ближе к аэропорту.</p>
+    </div>
+  </div>
+  <p class="small">Северо-запад атмосфернее и ближе к Fanal, Seixal и Porto Moniz, но там меньше вечерней инфраструктуры и чаще облачно/влажно.</p>
+
+  <h2 id="walks">🥾 Прогулки и физическая нагрузка</h2>
+  <table>
+    <thead><tr><th>Место</th><th>Ориентир по прогулке</th><th>Наш подход</th></tr></thead>
+    <tbody>
+      <tr><td>Fanal</td><td>Короткие прогулки на месте</td><td>Обязательно, без длинного трека</td></tr>
+      <tr><td>Balcões</td><td>Около 3 км туда-обратно, 1–1,5 ч</td><td>Лёгкая прогулка</td></tr>
+      <tr><td>Levada do Risco</td><td>Около 3 км, 1,5–2 ч</td><td>Выбрать её ради водопада</td></tr>
+      <tr><td>25 Fontes</td><td>Около 8–9 км, 3–4 ч</td><td>Опционально, средняя нагрузка</td></tr>
+      <tr><td>Ponta de São Lourenço</td><td>Полный маршрут заметно длиннее коротких смотровых прогулок</td><td>Ограничиться видами, если не хочется похода</td></tr>
+    </tbody>
+  </table>
+  <p class="small">Дистанции и время — ориентиры, зависят от выбранного старта, состояния троп, погоды и работы шаттлов. Перед выездом проверять актуальный статус маршрутов и официальные правила доступа.</p>
+
+  <h2 id="budget">📊 Бюджет и что проверить</h2>
+  <p>Бюджет пока не фиксируем — сначала нужны точные даты. В расчёт на двоих включить:</p>
+  <ul>
+    <li>перелёт Valencia–Funchal с багажом;</li>
+    <li>5–8 ночей проживания;</li>
+    <li>аренду машины, страховку и топливо;</li>
+    <li>парковки и платные активности (например, Cabo Girão, бассейны Porto Moniz, канатная дорога Achadas da Cruz);</li>
+    <li>питание.</li>
+  </ul>
+  <div class="notice warm">
+    <strong>Перед поездкой:</strong> проверить погоду в горах, состояние дорог (особенно ER105 и подъезды к Paul da Serra), статус пешеходных маршрутов, работу канатной дороги и шаттла Rabaçal. Не закладывать в план закрытые дороги или тропы без повторной проверки.
+  </div>
+
+  <h2 id="links">📌 Полезные ссылки</h2>
+  <ul>
+    <li><a href="https://www.visitmadeira.com/" target="_blank" rel="noopener">Visit Madeira — официальный туристический сайт</a></li>
+    <li><a href="https://ifcn.madeira.gov.pt/" target="_blank" rel="noopener">IFCN Madeira — природные территории и тропы</a></li>
+    <li><a href="https://www.google.com/maps/search/?api=1&query=Madeira+Portugal">Мадейра в Google Maps</a></li>
+    <li><a href="https://www.google.com/maps/dir/Funchal/Pico+do+Arieiro/Ribeiro+Frio/Fanal/Porto+Moniz/Seixal/Sao+Vicente/Funchal/">Основные точки на карте (Google Maps)</a></li>
+  </ul>
+
+  <div class="mfooter">
+    Предварительный план, не бронирование. Время в пути и прогулок ориентировочное; перед поездкой перепроверить расписания, доступность дорог и троп. Сделано с любовью к зелёным дорогам 🌿
+  </div>
+
+</article></section></main><footer>Сделано с любовью к дорогам</footer><div id="lb"><img alt=""></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="assets/app.js"></script></body></html>

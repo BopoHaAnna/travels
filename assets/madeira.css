@@ -1,0 +1,26 @@
+/* Мадейра: стили, которых нет в общем style.css */
+.madeira .notice{background:var(--card);border:1px solid var(--line);border-left:3px solid #426b55;padding:15px 18px;border-radius:8px;margin:22px 0}
+.madeira .notice.warm{border-left-color:#b49a69}
+.madeira .notice ol{margin:8px 0;padding-left:22px}
+.madeira .toc{border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:24px 0;background:var(--card)}
+.madeira .toc strong{display:block;margin-bottom:8px}
+.madeira .toc ol{margin:0;padding-left:22px}.madeira .toc li{margin:4px 0}
+.madeira .day{background:none;border:0;border-top:1px solid var(--line);border-radius:0;box-shadow:none;margin:0;padding:24px 0 22px}
+.madeira .day:first-of-type{border-top:0}
+.madeira .day-meta{color:var(--mut);font-size:14px;margin-bottom:6px}
+.madeira .day h3{margin:0 0 8px}
+.madeira .optional{display:inline-block;background:#f3efe5;color:#75613b;padding:3px 8px;border-radius:12px;font-size:12px;margin-left:6px;vertical-align:2px;font-weight:600}
+.madeira .small{font-size:14px;color:var(--mut)}
+.madeira .strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0 16px}
+.madeira .strip figure{margin:0;position:relative;border-radius:10px;overflow:hidden;background:#dce8df}
+.madeira .strip img{display:block;width:100%;aspect-ratio:5/4;object-fit:cover;cursor:zoom-in;margin:0;border:0;border-radius:0}
+.madeira .strip figcaption{position:absolute;left:8px;bottom:8px;right:8px;background:#ffffffd9;color:#26332e;font-size:12px;line-height:1.3;padding:3px 7px;border-radius:5px;width:fit-content;max-width:calc(100% - 16px)}
+.madeira .strip .ph{display:flex;align-items:center;justify-content:center;aspect-ratio:5/4;background:linear-gradient(135deg,#dce8df,#b8cbbb);color:#435b4a;font-size:14px;text-align:center;padding:10px}
+.madeira .grid2,.madeira .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.madeira .grid .card{border:1px solid var(--line);border-radius:12px;padding:15px;background:var(--card)}
+.madeira table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0 20px}
+.madeira th,.madeira td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.madeira th{color:var(--mut);font-weight:600}
+.madeira .mfooter{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;color:var(--mut);font-size:13px}
+@media(max-width:620px){.madeira .strip{gap:5px}.madeira .strip img{aspect-ratio:3/4}.madeira .strip figcaption{font-size:10px;left:5px;bottom:5px;padding:2px 5px}.madeira .grid{grid-template-columns:1fr}.madeira table{font-size:13px}.madeira th,.madeira td{padding:8px 5px}}
+@media(prefers-color-scheme:dark){.madeira .optional{background:#3a3426;color:#e0cf9f}}
